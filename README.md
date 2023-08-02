@@ -4,14 +4,16 @@
 The purpose of the analysis was to build a machine learning model to predict loan statuses (healthy loans vs. high-risk loans) based on financial information. The goal was to develop a predictive model that could assist in identifying loans that might be at a higher risk of defaulting. The data used in the analysis contained various financial attributes related to loans, such as loan amount, interest rate, credit score, debt-to-income ratio, employment status, and other relevant features. The target variable for prediction was the "loan_status," which contained binary values (0 and 1) representing whether the loan was re-paid or defaulted.
 
 The stages of the Machine Learning Process used include; 
-Data loading and exploration: Load the dataset and explore its structure, statistics, missing values, and data types. 
-Data preprocessing: Handle missing values, encode categorical variables, and scale numerical features if needed. 
-Data splitting: Divide the dataset into training and testing sets for model evaluation. 
-Model selection and training: Select the appropriate algorithm (eg; Logistic Regression) and train the model on the training data. 
-Model evaluation: Assess the model's performance on the testing data using metrics like accuracy, precision, recall, and F1-score. 
-Resampling (Oversampling): Use techniques like RandomOverSampler to balance classes and improve model performance on imbalanced datasets. 
+1) Data loading and exploration: Load the dataset and explore its structure, statistics, missing values, and data types. 
+2) Data preprocessing: Handle missing values, encode categorical variables, and scale numerical features if needed. 
+3) Data splitting: Divide the dataset into training and testing sets for model evaluation. 
+4) Model selection and training: Select the appropriate algorithm (eg; Logistic Regression) and train the model on the training data. 
+5) Model evaluation: Assess the model's performance on the testing data using metrics like accuracy, precision, recall, and F1-score. 
+6) Resampling (Oversampling): Use techniques like RandomOverSampler to balance classes and improve model performance on imbalanced datasets. 
 
-Methods Used inlcude Logistic Regression which is a classification algorithm for binary classification problems. It models the relationship between the dependent variable (loan status) and independent variables (financial attributes) using the logistic function. Another methode used is RandomOverSampler that is a resampling technique used to balance imbalanced datasets by creating synthetic samples for the minority class (eg; high-risk loans) to match the majority class (eg; healthy loans).
+Methods Used;
+1) Logistic Regression that is a classification algorithm for binary classification problems. It models the relationship between the dependent variable (loan status) and independent variables (financial attributes) using the logistic function. 
+2) RandomOverSampler that is a resampling technique used to balance imbalanced datasets by creating synthetic samples for the minority class (eg; high-risk loans) to match the majority class (eg; healthy loans).
 
 ## Results
 
