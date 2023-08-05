@@ -1,5 +1,9 @@
-# Challenge_12 Report
 
+
+<img width="578" alt="Screenshot 2023-08-05 at 6 22 01 PM" src="https://github.com/P4RASTOO/Challenge_12/assets/132952512/b6a47815-ff15-44e7-b45f-74aed3feca13">
+
+
+# Challenge_12 Report
 ## Overview of the Analysis
 The purpose of the analysis was to build a machine learning model to predict loan statuses (healthy loans vs. high-risk loans) based on financial information. The goal was to develop a predictive model that could assist in identifying loans that might be at a higher risk of defaulting. The data used in the analysis contained various financial attributes related to loans, such as loan amount, interest rate, credit score, debt-to-income ratio, employment status, and other relevant features. The target variable for prediction was the "loan_status," which contained binary values (0 and 1) representing whether the loan was re-paid or defaulted.
 
